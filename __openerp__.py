@@ -24,7 +24,6 @@
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
-    # 'depends': ['base', 'ir'],
 
     'external_dependencies': {
         'python': ['boto'],
