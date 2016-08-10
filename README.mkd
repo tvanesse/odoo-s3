@@ -16,4 +16,4 @@ ir_attachment.location  --->  s3://<Your-AWS-Access-Key-ID>:<Your-AWS-Secret-Key
 ```
 
 ## How to contribute
-Pull requests are welcome. The code is fairly short and easy to understand. All the magic happens in `models.py` where the regular `ir_attachment` class is extended.
+Pull requests are welcome. The code is fairly short and easy to understand. All the magic happens in `models.py` where the regular model `ir_attachment` is extended.
