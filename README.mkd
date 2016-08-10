@@ -1,11 +1,11 @@
 # Compatibility
 
-Odoo-S3 was written for Odoo 9 and was only tested with this particular version. There is no warranty that the addon
+`odoo-s3` was written for **Odoo 9** and was only tested with this particular version. There is no warranty that the addon
 will work for other releases.
 
 # Configuration
 
-In order to use `Odoo-S3` you will need to switch to "Developer mode" and define a new system parameter as follow
+In order to use `odoo-s3` you will need to switch to "Developer mode" and define a new system parameter as follow
 
 ```
 ir_attachment.location  --->  s3://<Your-AWS-Access-Key-ID>:<Your-AWS-Secret-Key>@<Your-S3-Bucket-name>
