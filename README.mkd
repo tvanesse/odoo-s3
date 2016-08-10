@@ -1,11 +1,13 @@
-# Dependencies
+# Odoo-S3
+
+## Dependencies
 `Odoo-S3` uses [`boto`](https://github.com/boto/boto) to talk to Amazon. You will need to have it installed on the host running Odoo.
 
-# Compatibility
+## Compatibility
 This module was written for **Odoo v9.0** and is only tested with this particular version. There is no warranty the addon
 will work for other releases.
 
-# Configuration
+## Configuration
 In order to use `Odoo-S3` you will need to switch to "Developer mode" and define a new system parameter as follow
 
 ```
@@ -13,5 +15,5 @@ ir_attachment.location  --->  s3://<Your-AWS-Access-Key-ID>:<Your-AWS-Secret-Key
 
 ```
 
-# How to contribute
+## How to contribute
 Pull requests are welcome. The code is fairly short and easy to understand. All the magic happens in `models.py` where the regular `ir_attachment` class is extended.
