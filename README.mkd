@@ -1,7 +1,7 @@
 # Odoo-S3
 
 ## Dependencies
-`Odoo-S3` uses [`boto`](https://github.com/boto/boto) to talk to Amazon. You will need to have it installed on the host running Odoo.
+`Odoo-S3` uses [`boto`](https://github.com/boto/boto) to talk to Amazon. You will need to install it on the host running Odoo.
 
 ## Compatibility
 This module was written for **Odoo v9.0** and is only tested with this particular version. There is no warranty the addon
